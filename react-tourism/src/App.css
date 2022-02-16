@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  background: #F55A5A;
+}
+.globe{
+  height: 24px;
+  width: 24px;
+  margin-right: 7px;
+}
+.nav-text{
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  margin-top: 36px;
+  margin-left: 40px;
+  margin-bottom: 28px
+}
+.main-image{
+  width: 125px;
+  height: 168px;
+}
+.text-wrapper{
+  width: 326px;
+  margin-left: 20px;
+}
+.first-line{
+  width: 200px;
+  display: flex;
+}
+.location-icon{
+  width: 7px;
+  height: 10px;
+}
+.country{
+  font-family: Inter;
+  font-size: 10px;
+  letter-spacing: 0.17em;
+  margin-left: 5px;
+  margin-right: 12px;
+  text-transform: uppercase;
+}
+a{
+  font-family: Inter;
+  font-size: 10px;
+  color: #918E9B
+}
+h2{
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  line-height: 30px;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+p{
+  font-family: Inter;
+  font-size: 10px;
+  line-height: 15px;
+  margin-top: 9px;
+}
+h6{
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
